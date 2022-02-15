@@ -1,8 +1,11 @@
 .button {
     background-color: #6e6b67;
     border-radius: 5px;
+    width: 150px;
 }
-.button .noActive {
-    background-color: #382d0e;
+
+.noActive {
     border-radius: 5px;
+    width: 150px;
 }
+
