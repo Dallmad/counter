@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import './App.css';
 import {Button} from "./components/Buttons/Button";
 import {ScoreBoard} from './components/scoreboard/scoreBoard'
+import {Input} from "./components/input/input";
+import {SettingsForm} from "./components/settingsForm/settingsForm";
 
 
 function App() {
@@ -16,8 +18,8 @@ function App() {
     }
 
     return (
-        <div>
-            <div className='app'>
+        <div className='app'>
+            <div className='app__inner'>
                 <div>
                     <ScoreBoard
                         counter={counter}
@@ -36,6 +38,9 @@ function App() {
                         callBack={clickReset}
                     />
                 </div>
+            </div>
+            <div>
+                <SettingsForm setCounter={setCounter} />
             </div>
         </div>
     );
