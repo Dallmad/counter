@@ -6,6 +6,9 @@ type ButtonType = {
     callBack: () => void
     disable: boolean
 }
+
+
+
 export const Button = (props: ButtonType) => {
     return (
         <button
