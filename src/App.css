@@ -1,23 +1,33 @@
 .app {
     display: flex;
     justify-content: center;
+    background-image: url("https://images.wallpaperscraft.ru/image/single/linii_svetlyy_fon_yarkiy_43975_1920x1080.jpg");
+    min-height: 800px;
+}
+
+.app__inner {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     font-size: 100px;
     width: 400px;
     height: 250px;
-    background-color: #363a3a;
+    background-color: #424848;
     border-radius: 20px;
-    margin: 20px auto;
-    border: 4px solid #1b1d33;
+    margin: auto;
+    border: 3px solid #1b1d33;
 }
 
 .app .button {
-    border: 4px solid #1b1d33;
+    border: 3px solid #1b1d33;
     display: flex;
     justify-content: center;
     height: 40px;
     border-radius: 5px;
     padding: 8px;
+}
+.settings {
+
 }
 

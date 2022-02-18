@@ -2,10 +2,12 @@
     background-color: #6e6b67;
     border-radius: 5px;
     width: 150px;
+    font-size: 20px;
 }
 
 .noActive {
     border-radius: 5px;
     width: 150px;
+    font-size: 20px;
 }
 
