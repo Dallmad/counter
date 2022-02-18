@@ -8,7 +8,6 @@ type ButtonType = {
 }
 
 
-
 export const Button = (props: ButtonType) => {
     return (
         <button
